@@ -1,0 +1,19 @@
+ #box {
+        display: flex;
+        justify-content: center; /* horizontal */
+        align-items: center; 
+        height: 100vh;
+        color: white;
+        padding: 1rem 2rem;
+        backdrop-filter: blur(6px) brightness(0.6);
+        background: rgba(0,0,0,0.2); /* helps blending */
+
+    }
+    body{
+        font-family: 'JetBrains Mono', monospace;
+        font-size: small;
+        background-color: rgb(255, 255, 255);
+        margin: 0;
+        padding: 0;
+        height: 100%;
+    }
