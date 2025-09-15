@@ -13,7 +13,7 @@
         if (!isChanging) {
             intervalID = setInterval(() => {
                 document.querySelector('body').style.backgroundColor = randomColor();
-            }, 500);
+            }, 200);
             isChanging = true;
         } else {
             clearInterval(intervalID);
